@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'League Spartan', sans-serif;
+}
+  
+  .about-section {
+    /* padding: 40px; */
+   background-color:whitesmoke
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .highlight-text {
+   color: rgb(135, 203, 185);
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+
+  .contact-us-section{
+    margin-left: 10px solid black;
+  }
+  .about-info {
+    flex: 1;
+    width: 70%; /* Adjust the width as per your preference */
+    padding: 40px; /* Add padding to create some space around the content */
+  }
+  
+  .about-image {
+    flex: 1;
+  width: 100%;
+  height: 100%;
+    /* margin-top: 20px; */
+    /* background-color: #333; */
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .about-info h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .about-info p {
+    margin-top: 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+.white{
+    color: black;
+    padding-top:10px;
+    font-weight: 25px;
+}
+  
+  .about-info a.btn {
+    display: inline-block;
+    background-color: rgb(135, 203, 185);
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .stores-contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+  }
+  .our-company-stores-section{
+    border-right: 2px solid black;
+    padding-right:70px;
+  }
+  .our-company-stores-section,
+  .contact-us-section {
+    flex-basis: calc(50% - 20px);
+  }
+  
+  .our-company-stores-section h2,
+  .contact-us-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .our-company-stores-section p,
+  .contact-us-section p {
+    color: #666;
+    line-height: 1.6;
+  }
+  /* Your existing CSS code */
+/* Your existing CSS code */
+
+.stay-in-touch-bar {
+    background-color: #87CBB9;
+  padding-top: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between; /* Use space-between to distribute items evenly */
+  align-items: center;
+}
+
+.stay-in-touch-text {
+  flex: 1;
+}
+
+.stay-in-touch-text h2 {
+  font-size: 20px;
+  padding-left: 40px;
+  margin-bottom: 5px;
+}
+
+.stay-in-touch-text p {
+  font-size: 14px;
+}
+
+.email-input {
+  flex: 2; /* Make the search bar wider by setting flex to 2 */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.email-input input {
+  flex: 1; /* Let the input element take up available space */
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  
+}
+
+.email-input button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF5733;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.social-icons {
+  flex: 1;
+  display: flex;
+  padding-left: 30px;
+ /* Align social icons to the right */
+  gap: 10px;
+}
+
+.icon-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon-name {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* Font Awesome Icons */
+/* You need to include the Font Awesome CSS file in your HTML */
+/* Example: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> */
+
+  
+  /* Font Awesome Icons */
+  /* You need to include the Font Awesome CSS file in your HTML */
+  /* Example: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> */
+  
+  .our-team-section {
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .our-team-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;/* Your existing CSS code */
+  }/* Your existing CSS code */
+/* Your existing CSS code */
+/* Your existing CSS code */
+
+/* Add a media query for mobile screens *//* Your existing CSS code */
+
+/* Add a media query for mobile screens */
+@media screen and (max-width: 768px) {
+    .about-content {
+      flex-direction: column-reverse; /* Reverse the order for mobile */
+    }
+  
+    .about-info {
+      width: 100%; /* Make about-info full width on mobile */
+      margin-top: 20px; /* Add some space between about-image and about-info */
+    }
+  
+    .about-image {
+      max-width: 100%; /* Make about-image full width on mobile */
+    }
+  
+    .stores-contact-section {
+      flex-direction: column; /* Stack the sections vertically on mobile */
+    }
+  
+    .our-company-stores-section,
+    .contact-us-section {
+      flex-basis: 100%; /* Make both sections full width on mobile */
+      border-right: none; /* Remove the border-right for mobile */
+      margin: 20px 0; /* Add some space between the sections */
+      padding-right: 0; /* Remove the padding-right for mobile */
+    }
+  
+
+    .stay-in-touch-bar {
+        flex-direction: column; /* Stack the sections vertically on mobile */
+        gap: 10px; /* Add some space between sections */
+        align-items: center; /* Center align the elements */
+        padding: 10px; /* Adjust the padding */
+      }
+      .stay-in-touch-text h2 {
+        font-size: 20px;
+        padding-left: 0px;
+        margin-bottom: 5px;
+      }
+    
+      .stay-in-touch-text {
+        flex: 1; /* Take full width on mobile */
+        text-align: center; /* Center the text */
+      }
+    
+      .email-input {
+        flex: 1; /* Take full width on mobile */
+        display: flex; /* Display items horizontally */
+        align-items: center; /* Center align the items */
+        gap: 10px;
+        margin:0px; /* Add some space between input and button */
+        margin-top: 10px; /* Add some space between stay-in-touch-text and email-input */
+      }
+    
+      .email-input input {
+        flex: 1; /* Take full width on mobile */
+      }
+    
+      .email-input button {
+        flex: 1; /* Take full width on mobile */
+      }
+    
+      .social-icons {
+        display: flex;
+        justify-content: center; /* Center align the social media icons */
+        gap: 10px; /* Add some space between social media icons */
+      }
+    
+      .icon-link {
+        flex: 0 0 auto; /* Allow the icons to take their natural width */
+      }
+    }
